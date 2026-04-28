@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+hospital/Include/
+hospital/Lib/
+hospital/Scripts/
+hospital/pyvenv.cfg
+
+# Node
+node_modules/
+dist/
+.env
+
+# Misc
+.DS_Store
+.vscode/

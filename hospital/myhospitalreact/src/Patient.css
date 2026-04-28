@@ -1,0 +1,57 @@
+ /* Patient signup Form CSS */
+.patient-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.patient-container h1{
+    text-align: center;
+}
+
+.patient-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.patient-form input[type="text"],
+.patient-form input[type="number"],
+.patient-form input[type="password"],
+.patient-form input[type="tel"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+.gender-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.patient-form button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(to right, #0f368b, #3f68a9);
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.patient-form button:hover{
+  background-color: black;
+  color: aliceblue;
+}

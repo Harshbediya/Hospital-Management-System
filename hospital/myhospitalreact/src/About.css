@@ -1,0 +1,99 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9fbfc;
+}
+
+.hero-section {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  color: #1f3c88;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.overview-section,
+.mission-vision,
+.values,
+.features-section,
+.cta-section {
+  margin-top: 40px;
+}
+
+.mission-vision {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.mission,
+.vision {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-left: 4px solid #1f3c88;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.values ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-card {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  border-left: 4px solid #35a29f;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.cta-section {
+  text-align: center;
+  background-color: #eef5f9;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #1f3c88;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #17409e;
+}
+
+.about-footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}

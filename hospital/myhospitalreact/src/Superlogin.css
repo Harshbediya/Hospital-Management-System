@@ -1,0 +1,50 @@
+/* Superlogin.css */
+
+
+.superlogin-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.superlogin-container h1 {
+  margin-bottom: 1.5rem;
+  color: #0f368b;
+}
+
+.superlogin-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.superlogin-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #0f368b, #3f68a9);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.superlogin-form button:hover {
+  background: linear-gradient(to right, #0c2c6b, #345b9b);
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: green;
+}
